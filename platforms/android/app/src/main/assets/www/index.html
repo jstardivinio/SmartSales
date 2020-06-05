@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--API 21 or higher because of node js-->
+
+<html>
+    <head>
+     
+        <title>SmartSales</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+        <link href="css/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+        <link href="css/bootstrap/css/bootstrap-grid.css" type="text/css" rel="stylesheet"/>
+        <link href="css/bootstrap/css/bootstrap-reboot.css" type="text/css" rel="stylesheet"/>
+
+        
+    </head>
+    <body style="background-color: rgb(238, 238, 238)">
+
+        <div class=" " id="mainDiv" >
+
+                    <div class ="row row-cols-1 justify-content-center align-items-top">
+            
+                        <h1 class="col text-center" style="color:rgb(255, 145, 0)"><b>SmartSales</b></h1>
+                        <div class="col text-center">
+                          <img class=" rounded" alt="SmartSales Logo" src="www/img/logo.png">
+                        </div>
+                        
+            
+                    </div><!-- /header -->
+            
+                    <div class =" row justify-content-center align-items-center mt-5">
+                        <form name="singInDiv">
+                            <div class="form-group">
+                              <label for="txt-uname">User name</label>
+                              <input type="text" class="form-control" id="txt-uname">
+                            </div>
+                            <div class="form-group">
+                              <label for="txt-Password1">Password</label>
+                              <input type="password" class="form-control" id="txt-password">
+                            </div>
+                           
+                            <a href="#" class="btn btn-block" style="background-color:orange; color:white" id = "submitLogin" onClick="testPing('login')"> Submit </a>
+
+                            <div class="form-group">
+                                <label>Or <a href="#" id ="signUpPage" onClick="displayRegPage()">Register</a></label>
+                              </div>
+                          </form>
+                        </div>
+
+            
+        </div><!-- /page -->
+            
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/jquery/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        
+    </body>
+    <footer>
+    </footer>
+</html>

@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-advanced-http": {
+      "OKHTTP_VERSION": "3.10.0",
+      "PACKAGE_NAME": "com.maviance.smartsales"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.maviance.smartsales"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.maviance.smartsales"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.maviance.smartsales"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.maviance.smartsales"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.maviance.smartsales"
+    }
+  }
+}
